@@ -1,3 +1,6 @@
+<html>
+<head>
+<script type="text/php">
 <?php
 $url = $_POST["webhook_id"];
 $data = $_POST["payload"];
@@ -18,4 +21,6 @@ if ($result === FALSE) {
 
 var_dump($result);
 ?>
-<html><body><p>You didn't use a POST request, silly!</p></body></html>
+</script>
+</head>
+<body><p>You didn't use a POST request, silly!</p></body></html>
