@@ -2,7 +2,7 @@
 <head>
 <script type="text/php">
 <?php
-$url = $_POST["webhook_id"];
+$url = "https://ptb.discordapp.com/api/webhooks/" . $_POST["webhook_id"];
 $data = $_POST["payload"];
 
 // use key 'http' even if you send the request to https://...
